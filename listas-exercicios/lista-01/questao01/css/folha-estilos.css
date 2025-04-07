@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+p, li {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
