@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    text-align: center;
+    font-weight: normal;
+}
+
+caption {
+    font-weight: bold;
+}
+
+.borda-superior {
+    border-top: 1px solid black;
+}
+
+.borda-inferior {
+    border-bottom: 1px solid black;
+}
+
+.borda-direita {
+    border-right: 1px solid black;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.recuo-esquerda {
+    padding-left: 20px;
+}

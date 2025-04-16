@@ -1,0 +1,23 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+table td, th {
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.alinhamento-centralizado {
+    text-align: center;
+}
+
+.cor-vermelha {
+    color: red;
+}
