@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+fieldset {
+    padding: 0px;
+    width: 285px;
+    border: 1px solid gray;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div label {
+    margin-top: 3px;
+    width: 50px;            
+}
+
+div span {
+    margin-top: 2px;
+    width: 50px;
+}
+
+div input {
+    margin: auto 5px;
+    width: 150px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#nome {
+    width: 204px;
+}
+
+label[for="grauObesidade"] {
+    width: 130px;
+}

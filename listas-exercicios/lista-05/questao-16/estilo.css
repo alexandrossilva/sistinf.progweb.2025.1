@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+div select {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 0;
+}
+
+div input {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 0;
+}
+
+div label {
+    box-sizing: border-box;
+    width: 210px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+div button {
+    width: 310px;
+}

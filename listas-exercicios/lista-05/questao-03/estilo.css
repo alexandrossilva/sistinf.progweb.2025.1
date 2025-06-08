@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-left: 2px;
+    margin-right: 2px;    
+}

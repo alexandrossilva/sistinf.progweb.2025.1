@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>Dados de Novo Indíviduo</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="peso">Peso</label>
+                <input type="number" id="peso">
+                <span>Kg</span>
+            </div>
+            <div>
+                <label for="altura">Altura</label>
+                <input type="number" id="altura">
+                <span>metros</span>
+            </div>
+        </fieldset>
+        <button id="btn-processar">Processar<br>Dados</button>    
+    </div>
+    <div>
+        <fieldset>
+            <div>
+                <label for="grauObesidade">Grau de Obesidade</label>
+                <select name="grauObesidade" id="grauObesidade">
+                    <option value="-1"></option>
+                    <option value="0">Magreza</option>
+                    <option value="1">Saudável</option>
+                    <option value="2">Sobrepeso</option>
+                    <option value="3">Obesidade Leve</option>
+                    <option value="4">Obesidade Severa</option>
+                    <option value="5">Obesidade Mórbida</option>
+                </select>
+                <button id="btn-listar">Indíviduos</button>    
+            </div>
+            <div>
+                <p id="pNomes">&nbsp;</p>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

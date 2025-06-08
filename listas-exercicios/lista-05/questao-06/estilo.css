@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+div input {
+    text-align: center;
+}

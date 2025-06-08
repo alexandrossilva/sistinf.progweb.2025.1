@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+div label {
+    width: 200px;
+    margin-top: 2px;
+}
+
+div input {
+    width: 50px;
+    text-align: center;
+}
+
+div span {
+    width: 50px;
+    padding-left: 2px;
+}
+
+div select, #distancia-convertida {
+    width: 100px;
+}
+
+div button {
+    width: 300px;
+}

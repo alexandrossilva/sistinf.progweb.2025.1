@@ -1,0 +1,12 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+td, th {
+    border: 1px solid black;
+}

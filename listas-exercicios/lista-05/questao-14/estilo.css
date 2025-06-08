@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+div {
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+div select, input {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 0;
+    text-align: right;
+}
+
+div label {
+    width: 120px;
+    margin-top: 3px;
+}
+
+div button {
+    width: 220px;
+}
+
+div table {
+    width: 250px;
+    border-collapse: collapse;
+}
+
+div table caption {
+    font-weight: bold;
+}
+
+div table th {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+div table tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+div table td {
+    border: 1px solid white;
+    text-align: center;
+}

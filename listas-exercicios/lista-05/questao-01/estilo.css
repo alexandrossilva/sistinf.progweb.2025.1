@@ -1,0 +1,16 @@
+* {
+    margin: 2px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    padding-top: 2px;
+}
+
+input {
+    text-align: center;
+}
